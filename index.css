@@ -1,0 +1,106 @@
+*{
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+   list-style: none;
+}
+.container{
+   max-width: 70%;
+   margin: 0 auto;
+}
+.navbar{
+   margin-top: 10px;
+   text-align: end;
+}
+.navbar a{
+   margin: 10px;
+   font-family:Arial, Helvetica, sans-serif;
+   font-weight: bold;
+}
+.navbar a:hover{
+   background-color: darkgray;
+   padding: 5px;
+   color: rgb(255, 255, 254);
+}
+.home_stail{
+   display: grid;
+   grid-template-columns: 60% 40%;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   margin-top: 30px;
+}
+
+.home_text button{
+   color: #FFFFFF;
+   background-color: #FF6464;
+   padding: 5px 20px;
+   border-radius: 3px;
+}
+.home_img{
+   padding-left: 50px;
+}
+/* sektion */
+section{
+   background-color: rgb(211, 250, 237);
+}
+.Recent_posts{
+   display:flex;
+   justify-content: space-between;
+   margin-top: 30px;
+}
+.box-1{
+   display: grid;
+   grid-template-columns:50% 50%;
+   gap: 10px;
+   padding: 30px 0;
+
+}
+.text_cart{
+   border: 2px solid black;
+   padding: 20px;
+   margin: 2px;
+   background-color: #FFFFFF;
+   border-radius: 5px;
+}
+.divvv{
+   display: flex;
+   
+}
+.divvv{
+   display: flex;
+   
+}
+.divvv p b{
+   margin: 10px;
+   border:1px solid black;
+   
+}
+/* Main */
+
+.main_section{
+   display: grid;
+   grid-template-columns:30% 70%;
+   gap: 10px;
+   padding: 30px 0    ;
+  
+}
+.btn-2{
+   background-color: black;
+   padding: 5px;
+   color: #FFF;
+   border-radius:7px;
+}
+
+/* Futer */
+.futer_icons{
+   padding: 30px;
+   display: flex;
+   justify-content: center;
+   align-items:center;
+
+}
+.futer_icons img{
+   margin: 0 10px;
+}
+
